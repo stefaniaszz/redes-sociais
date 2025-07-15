@@ -4,16 +4,19 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 html, body {
     background-color: black;
+    
 }
 
 body {
     background: url('../imagens/fundo.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 main {
@@ -30,14 +33,40 @@ section#telefone {
     width: 370px;
     background: url('../imagens/mockup-15.PNG') no-repeat;
     display: block;
+    
 }
 
 iframe#tela {
     position: absolute;
-    top:25px;
-    left: 25px;
+    top:22px;
+    left: 22px;
     width: 259px;
     height: 590px;
-    border-radius: 26px;
-    border: none;
+    border-radius: 39px;
+    border: 3px solid rgb(15, 14, 14);
+}
+
+section#redes-sociais {
+    position: fixed;
+    right: 20px;
+    bottom: 485px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.616);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover{
+    border: 3px solid rgba(255, 255, 255, 0.363);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+    transition: transform .3s, border .5s;
+
 }
