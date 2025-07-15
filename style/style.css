@@ -22,23 +22,22 @@ main {
 }
 
 section#telefone {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /*posiciona no meio*/
-
     height: 691px;
     width: 370px;
-    background: url('../imagens/mockup-2-ok.PNG') no-repeat;
+    background: url('../imagens/mockup-15.PNG') no-repeat;
+    display: block;
 }
 
 iframe#tela {
-    position: relative;
-    top: 7%;
-    left: 13%;
-    width: 277px;
-    height: 597px;
-    border-radius: 30px;
-    border: 1px solid #ccc;
-    overflow: hidden;
+    position: absolute;
+    top:25px;
+    left: 25px;
+    width: 259px;
+    height: 590px;
+    border-radius: 26px;
+    border: none;
 }
